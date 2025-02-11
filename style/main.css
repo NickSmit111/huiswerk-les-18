@@ -1,0 +1,65 @@
+[class*="col-"] {
+    width: 100%;
+}
+@media only screen and (min-width: 768px) {
+    [class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+}
+body{
+    background-color:rgb(192, 192, 192);
+}
+header{
+    width: 100%;
+    min-height: 100px;
+    background-color: rgb(111, 103, 131);
+}
+footer{
+    font-family: "Merriweather", serif;
+    font-style: normal;
+    width: 100%;
+    min-height: 50px;
+    background-color: rgb(101, 94, 102);
+    color: rgb(255, 255, 255);
+}
+#kop{
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    background-image: url('../afbeelding/amersfoort.jpg');
+    background-size: cover;
+    background-position: center;
+}
+#a{
+    font-family: "Merriweather", serif;
+    font-style: normal;
+    background-color: rgb(108, 88, 141);
+    height: auto;
+    padding: 15px;
+}
+#b{
+    font-family: "Merriweather", serif;
+    font-style: normal;
+    background-color: rgb(70, 80, 112);
+    height: auto;
+    padding: 15px;
+}
+img{
+    float: right;
+    width: 11%;
+    height: auto; 
+}
